@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family:'Komigo3D'
+    src: url('font/Komigo3D-Regular.ttf') format('truetype');
+}
+
+.costum-font
+
+body {
+
+}
+
+
+.hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;  /* Mengatur padding agar teks terlihat jelas */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+#berita .card {
+    margin-bottom: 30px;
+}
+
+#berita .card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+#berita img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+#berita .col-md-3 {
+    margin-bottom: 30px;
+}
+
+
+#tentang {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#tentang h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#tentang p {
+    font-size: 1rem;
+}
+
+
+#kontak {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#kontak h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#kontak a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#kontak a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 1rem;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #6c757d;
+}
